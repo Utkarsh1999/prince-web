@@ -1,0 +1,126 @@
+.top-banner {
+    max-width: inherit;
+    height: 90vh;
+    /* background: red; */
+    background-image: url("../banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.nav-bg {
+    background:white;
+    color: black;
+}
+nav > a {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+.middle-banner {
+    max-width: inherit;
+    height: 100vh;
+    /* background: red; */
+    background-image: url("../banner.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../banner.jpg");
+    
+    /* Set a specific height */
+    height: 90vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#header{
+    position: absolute;
+    z-index: 1000;
+    top: 200px;
+    left: 240px;
+    color: white;
+    font-size: 68px;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  .text-box{
+      height: 600px;
+      padding: 50px;
+  }
+  @media only screen and (max-device-width: 1024px) {
+      .parallax {
+          background-attachment: scroll;
+      }
+  }
+
+.second {
+    background: red;
+    height: 40vh;
+    margin: 0;
+}
+
+.grey-back {
+    /* background: rgb(212, 122, 122); */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+    max-height: 40vh;
+    min-height: 30vh;
+
+}
+
+.third {
+    /* background: lightblue; */
+    height: 70vh;
+    position: absolute;
+    z-index: 1000;
+
+}
+
+.card {
+    margin: 70px;
+    max-height: 50vh;
+}
+
+
+
+.card-title{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.center {
+    
+    color: white;
+    margin-left:40%;
+}
+
+
+
+/*predictor.html css*/
+.form-heading{
+    margin-left:30%;
+    color: black;
+}
+
+.form-container {
+    margin-top: 4%;
+}
+
+footer {
+    background: #00BCD4;
+}
